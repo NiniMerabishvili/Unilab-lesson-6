@@ -1,5 +1,5 @@
 .container {
-	padding-top: 100px;
+	padding-top: 65px;
 }
 .headerli {
 	float: left;
@@ -15,9 +15,14 @@
 	vertical-align: middle;
 	margin-top: 37px;
 }
+/*.headerul {
+	float: left;
+	margin-left: 103.4px;
+	margin-top: 37px;
+}*/
 .logo {
 	float: left;
-	margin-top: 20px;
+	margin-top: 15px;
 	vertical-align: middle;
 	/*margin-top: 17px;*/
 	margin-left: 97.87px;
