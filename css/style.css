@@ -1,36 +1,51 @@
+.container {
+	padding-top: 100px;
+}
 .headerli {
 	float: left;
 	margin-left: 31px;
 	font-size: 24px;
 	color: #3D58A6;
 	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
 }
-.headerul {
+.navigation {
 	float: left;
 	margin-left: 103.4px;
-	/*margin-top: 35.42px;*/
 	vertical-align: middle;
-	margin-top: 37px;
+	/*margin-top: 37px;*/
 }
+/*.headerul {
+	float: left;
+	margin-left: 103.4px;
+	margin-top: 37px;
+}*/
 .logo {
 	float: left;
-	/*margin-top: 27.26px;*/
+	margin-top: 20px;
 	vertical-align: middle;
-	margin-top: 17px;
+	/*margin-top: 17px;*/
 	margin-left: 97.87px;
 }
-.div1 {
-	position: relative;
-	background-color: #E6E6E6;
-	height: 520px;
-	margin-top: 26.42px;
+.header {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	height: 100px;
+	width: 100%; 
+	background-color: white;
 }
 .header::after {
 	content:'';
 	clear: both;
 	display: block;
-	position: fixed;
-	width: 100%;
+}
+/*section1*/
+.div1 {
+	position: relative;
+	background-color: #E6E6E6;
+	height: 520px;
+	margin-top: 26.42px;
 }
 .img1 {
 	margin-left: 98px;
@@ -40,15 +55,199 @@
 	position: absolute;
 	color: white;
 	font-size: 30px;
-	width: 339px;
-	height: 147px;
-	left: 30.02px;
-	bottom: 21.77px;
+	width: 360px;
+	left: 130px;
+	bottom: 147px;
+	font-family: 'Roboto', sans-serif;
 }
-.div2 {
+.OR-h3 {
 	position: absolute;
-	/*width: 339px;*/
-	height: 147px;
-	left: 30.02px;
-	bottom: 21.77px;
+	color: white;
+	font-size: 30px;
+	width: 360px;
+	left: 130px;
+	bottom: 115px;
+	font-family: 'Roboto', sans-serif;
+}
+.white-h3 {
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	width: 360px;
+	left: 130px;
+	bottom: 85px;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*section2*/
+.div2 {
+	background-color: #363E97;
+	width: 1366px;
+	height: 500px;
+	position: relative;
+}
+.videostext {
+	font-size: 24px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	left: 99.54px;
+	top: 29.97px;
+}
+.whitediv1 {
+	background-color: white;
+	width: 570px;
+	height: 320px;
+	position: absolute;
+	left: 98px;
+	top: 89.75px;
+}
+.whitediv2 {
+	background-color: white;
+	width: 570px;
+	height: 320px;
+	position: absolute;
+	right: 90px;
+	top: 89.75px;
+}
+
+/*section3*/
+.div3 {
+	position: relative;
+	background-color: #BDCCD4;
+	width: 1366px;
+	height: 450px;
+}
+.newstext {
+	font-size: 24px;
+	color: #3D58A6;
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	left: 99.54px;
+	top: 29.97px;
+}
+.typographydiv {
+	background-color: #E6E6E6;
+	width: 270px;
+	height: 270px;
+	position: absolute;
+	top: 90.25px;
+	left: 98px;
+	position: relative;
+	float: left;
+}
+.p1 {
+	position: absolute;
+	bottom: 17px;
+	left: 14.1px;
+	font-size: 22px;
+	color: #333333;
+	font-family: 'Roboto regular', sans-serif;
+}
+.marketingdiv {
+	background-color: #E6E6E6;
+	width: 270px;
+	height: 270px;
+	position: absolute;
+	bottom: 90px;
+	left: 398px;
+	float: left;
+}
+.codingdiv {
+	background-color: #E6E6E6;
+	width: 270px;
+	height: 270px;
+	position: absolute;
+	right: 398px;
+	bottom: 90px;
+	float: left;
+}
+.interfacediv {
+	width: 270px;
+	height: 270px;
+	background-color: #E6E6E6;
+	position: absolute;
+	right: 98px;
+	bottom: 90px;
+}
+
+/*section4*/
+.div4 {
+	width: 1366px;
+	height: 345.46px;
+	background-color: #E6E6E6;
+	position: relative;
+}
+.featuredtext {
+	font-size: 24px;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	left: 99.54px;
+	top: 29.97px;
+}
+.webdesign {
+	width: 570px;
+	height: 225px;
+	background-color: #F2F2F2;
+	position: absolute;
+	left: 98px;
+	bottom: 30.7px;
+}
+.featuredh4 {
+	font-size: 22px;
+	color: #3D58A6;
+	font-family: 'Roboto regular', sans-serif;
+	position: absolute;
+	left: 20.77px;
+	top: 11.05px;
+}
+.fingericon {
+	position: absolute;
+	left: 38.78px;
+	bottom: 41.78px;
+	float: left;
+}
+.featuredparagraph {
+	width: 355px;
+	height: 143.29px;
+	font-size: 20px;
+	color: #333333;
+	font-family: 'Roboto regular', sans-serif;
+	position: absolute;
+	right: 20px;
+	top: 57.45px;
+}
+.appdevelopement {
+	width: 570px;
+	height: 225px;
+	background-color: #F2F2F2;
+	position: absolute;
+	right: 99px;
+	bottom: 30.7px;
+}
+
+/*section5*/
+.section5::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.footerh5 {
+	float: left;
+	margin-left: 97.01px;
+	font-size: 12px;
+	color: #333333;
+	font-family: 'Roboto regular', sans-serif;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.footerh5-2 {
+	float: right;
+	margin-right: 94.54px;
+	font-size: 12px;
+	color: #333333;
+	font-family: 'Roboto regular', sans-serif;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
